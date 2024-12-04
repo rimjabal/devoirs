@@ -1,8 +1,8 @@
 <?php
 // 1. Créer un tableau associatif pour les employés et calculer le salaire moyen
 $employees = [
-    ['nom' => 'Alice', 'poste' => 'Développeur', 'salaire' => 5000],
-    ['nom' => 'Bob', 'poste' => 'Designer', 'salaire' => 4000],
+    ['nom' => 'rim', 'poste' => 'Développeur', 'salaire' => 5000],
+    ['nom' => 'mouad', 'poste' => 'Designer', 'salaire' => 4000],
     ['nom' => 'Charlie', 'poste' => 'Manager', 'salaire' => 6000],
     ['nom' => 'Diana', 'poste' => 'Analyste', 'salaire' => 4500],
     ['nom' => 'Eve', 'poste' => 'HR', 'salaire' => 3500],
@@ -101,8 +101,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['produits'])) {
 
 // 9. Moyenne des notes des étudiants
 $students = [
-    'Alice' => ['Math' => 15, 'Anglais' => 14, 'Physique' => 18],
-    'Bob' => ['Math' => 12, 'Anglais' => 10, 'Physique' => 14],
+    'rim' => ['Math' => 15, 'Anglais' => 14, 'Physique' => 18],
+    'mouad' => ['Math' => 12, 'Anglais' => 10, 'Physique' => 14],
 ];
 function calculerMoyenne($notes) {
     return array_sum($notes) / count($notes);
@@ -110,8 +110,8 @@ function calculerMoyenne($notes) {
 
 // 10. Gestion des utilisateurs
 $utilisateurs = [
-    ['nom' => 'Alice', 'email' => 'alice@example.com'],
-    ['nom' => 'Bob', 'email' => 'bob@example.com'],
+    ['nom' => 'rim', 'email' => 'alice@example.com'],
+    ['nom' => 'mouad', 'email' => 'bob@example.com'],
 ];
 
 function ajouterUtilisateur($nom, $email) {
